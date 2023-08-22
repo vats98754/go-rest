@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/nerdcademy/restapi/model"
+	"github.com/vats98754/restapi/model"
 )
 
 func GetAllPosts(w http.ResponseWriter, r *http.Request) {

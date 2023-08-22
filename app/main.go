@@ -1,9 +1,8 @@
 package main
 
 import (
-
-	"github.com/nerdcademy/restapi/controller"
-	"github.com/nerdcademy/restapi/model"
+	"github.com/vats98754/restapi/controller"
+	"github.com/vats98754/restapi/model"
 )
 
 func main() {

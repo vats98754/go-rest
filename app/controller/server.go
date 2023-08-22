@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	controller "github.com/nerdcademy/restapi/controller/blog"
+	controller "github.com/vats98754/restapi/controller/blog"
 )
 
 var router *mux.Router
@@ -28,7 +28,7 @@ func initHandlers() {
 
 func Start() {
 	router = mux.NewRouter()
-	
+
 	initHandlers()
 	fmt.Printf("router initialized and listening on 3200\n")
 	log.Fatal(http.ListenAndServe(":3200", router))

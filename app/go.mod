@@ -1,4 +1,4 @@
-module github.com/nerdcademy/restapi
+module github.com/vats98754/restapi
 
 go 1.17
 
